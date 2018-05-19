@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App/> mount rendering matches the snapshot 1`] = `
+<App>
+  <div
+    className="App"
+  >
+    <header
+      className="App-header"
+    >
+      <img
+        alt="logo"
+        className="App-logo"
+        src="logo.svg"
+      />
+      <h1
+        className="App-title"
+      >
+        Welcome to React
+      </h1>
+      <h2
+        className="blue"
+      >
+        Main color
+      </h2>
+    </header>
+    <Title
+      text="something"
+    >
+      <h2>
+        something
+      </h2>
+    </Title>
+    <p
+      className="button-state"
+    >
+      No!
+    </p>
+    <button
+      onClick={[Function]}
+    >
+      click
+    </button>
+    <h3 />
+    <input
+      onChange={[Function]}
+      type="text"
+    />
+    <p
+      className="App-intro"
+    >
+      Hey qorld
+    </p>
+    <ul
+      className="ric"
+    >
+      <li />
+      <li
+        className="ric"
+      />
+      <li
+        className="ric"
+      />
+    </ul>
+    <Test>
+      <div>
+        testing
+      </div>
+    </Test>
+    <p
+      className="lifeCycle"
+    >
+      componentDidMount
+    </p>
+  </div>
+</App>
+`;
+
+exports[`<App/> shallow rendering matches the snapshot 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <img
+      alt="logo"
+      className="App-logo"
+      src="logo.svg"
+    />
+    <h1
+      className="App-title"
+    >
+      Welcome to React
+    </h1>
+    <h2
+      className="blue"
+    >
+      Main color
+    </h2>
+  </header>
+  <Title
+    text="something"
+  />
+  <p
+    className="button-state"
+  >
+    No!
+  </p>
+  <button
+    onClick={[Function]}
+  >
+    click
+  </button>
+  <h3 />
+  <input
+    onChange={[Function]}
+    type="text"
+  />
+  <p
+    className="App-intro"
+  >
+    Hey qorld
+  </p>
+  <ul
+    className="ric"
+  >
+    <li />
+    <li
+      className="ric"
+    />
+    <li
+      className="ric"
+    />
+  </ul>
+  <Test />
+  <p
+    className="lifeCycle"
+  >
+    componentDidMount
+  </p>
+</div>
+`;
